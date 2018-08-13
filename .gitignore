@@ -240,4 +240,7 @@ _Pvt_Extensions
 .idea/
 
 # Unit test coverage file
+
 coverage/
+
+**/dist

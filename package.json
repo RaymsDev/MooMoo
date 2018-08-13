@@ -4,6 +4,8 @@
   "description": "ASP.NET Core + React + Typescript + MongoDB with docker support",
   "main": "index.js",
   "scripts": {
+    "start":"npm run watch-client",
+    "watch-client":"webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,18 @@
     "MongoDB"
   ],
   "author": "rayms.dev@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
