@@ -4,8 +4,8 @@
   "description": "ASP.NET Core + React + Typescript + MongoDB with docker support",
   "main": "index.js",
   "scripts": {
-    "start":"npm run watch-client",
-    "watch-client":"webpack --watch",
+    "start": "npm run watch-client",
+    "watch-client": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
