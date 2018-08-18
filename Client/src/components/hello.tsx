@@ -1,4 +1,5 @@
 import * as React from "react";
+import {AdminProduct} from "../components/Admin/Product/adminProduct"
 
 export interface HelloProps {
   compiler: string;
@@ -12,7 +13,10 @@ export class Hello extends React.Component<HelloProps, {}> {
     return (
       <h1>
         Hello from {this.props.compiler} and {this.props.framework}!
+        <AdminProduct />
       </h1>
+
+      
     );
   }
 }
